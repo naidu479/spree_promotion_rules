@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '0.70.3'
   s.summary     = 'Collection of Spree Promotion Rules'
   s.description = 'Spree Promotion Rules is a collection of spree promotion rules.  It currently only has one rule that supports roles.'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.author            = 'John Hwang'
   s.email             = 'johnyhwang@gmail.com'
@@ -17,8 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 0.70.3'
+  s.add_dependency 'spree_core', '>= 2.2'
   s.add_dependency 'spree_promo', '>= 0.70.3'
   s.add_development_dependency 'rspec-rails'
 end
-
